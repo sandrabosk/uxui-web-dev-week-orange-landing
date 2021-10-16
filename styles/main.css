@@ -1,0 +1,143 @@
+body {
+    background-color: #F8F8F8;
+    font-family: 'Encode Sans', sans-serif;
+    color: #031D5B;
+    width: 320px;
+    margin: 0 auto;
+
+    /* margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    margin-right: 0; */
+}
+
+nav {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* class: */
+/* .class-name {
+    rules
+    property: value
+} */
+
+#logo {
+    color: #F8765E;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    padding-right: 2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #031D5B;
+}
+
+ul li a:hover { 
+    color: #5b6c94 ;
+}
+
+form {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #F8765E;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input {
+    background: rgba(0, 0, 0, 0);
+    display: inline;
+    box-sizing: border-box;
+    height: 1.5rem;
+    font-weight: 700;
+}
+
+#search-field {
+    border: none;
+    width: 80%;
+    padding-left: 1rem;
+}
+
+#search-field::placeholder {
+    color: #B6BBC9;
+
+}
+
+#search-button {
+    background-image: url("../images/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    width: 3rem;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+section ul {
+    width: 11rem;
+    margin: 0 auto 1rem auto;
+}
+
+.btn {
+    background-color: #031D5B;
+    border: none;
+    border-radius: 16px;
+    width: 10rem;
+    margin: auto;
+    display: block;
+    height: 3.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(3, 29, 91, 0.25));
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.rating {
+    width: 10rem;
+    margin: 0.5rem auto 0 auto;
+}
+
+.rating p {
+    display: inline;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+footer p {
+    color: #B6BBC9;
+    font-weight: 700;
+    text-align: center;
+    margin: 2.5rem auto 1rem auto;
+}
+
+
+
+
+
+
+
